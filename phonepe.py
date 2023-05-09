@@ -9,7 +9,7 @@ import plotly.express as px
 # !git clone https://github.com/PhonePe/pulse.git  --> Cloning the data from GitHub
 
 # Making connection between postgres and python interface
-conn = psycopg2.connect(host="localhost", user="postgres", password="Smile!098", port=5432, database="phonepe")
+conn = psycopg2.connect(host="localhost", user="postgres", password="password", port=5432, database="phonepe")
 cur = conn.cursor()
 
 
